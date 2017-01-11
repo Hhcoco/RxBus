@@ -101,7 +101,6 @@ public class RxBus {
             CompositeSubscription compositeSubscription = new CompositeSubscription();
             compositeSubscription.add(subscription);
             mSubscriptions.put(tag , compositeSubscription);
-            Log.d("outt" , "已经添加");
         }
     }
 
