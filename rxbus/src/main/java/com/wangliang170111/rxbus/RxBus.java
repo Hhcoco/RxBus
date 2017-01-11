@@ -50,6 +50,7 @@ public class RxBus {
         t.setTag(tag);
         t.setObject(object);
         serializedSubject.onNext(t);
+        Log.v("out" , "test");
     }
 
     /**
